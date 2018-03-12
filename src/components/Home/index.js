@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Menu, Container, Header } from 'semantic-ui-react';
+import Product from '../Product';
+import Ship from '../Ship';
 import './styles.css';
 
 class Home extends Component {
@@ -13,6 +15,12 @@ class Home extends Component {
     })
   }
 
+  renderChild = (activeItem) => (
+    activeItem === 'product' ?
+      <Product /> :
+      <Ship />
+  )
+
   render() {
     const { activeItem } = this.state;
 
@@ -25,6 +33,7 @@ class Home extends Component {
           <Menu.Item name="product" active={activeItem === "product"} onClick={this.handleMenuClick}/>
           <Menu.Item name="ship" active={activeItem === "ship"} onClick={this.handleMenuClick}/>
         </Menu>
+        {this.renderChild(activeItem)}
       </Container>
     );
   }
