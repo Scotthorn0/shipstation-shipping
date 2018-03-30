@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmAddress Component should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ConfirmAddress
+    moveStep={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "basic": true,
+      "children": Array [
+        <Header
+          content="Confirm the Address is correct."
+/>,
+        <SegmentGroup
+          horizontal={true}
+>
+          <Segment>
+                    <Header
+                              content="What you entered"
+                              size="small"
+                    />
+                    <AddressViewer
+                              address={undefined}
+                    />
+          </Segment>
+          <Segment>
+                    <Header
+                              content="What we found"
+                              size="small"
+                    />
+                    <AddressViewer
+                              address={undefined}
+                    />
+          </Segment>
+</SegmentGroup>,
+        <Segment
+          basic={true}
+          textAlign="right"
+>
+          <Header
+                    content="Is this correct?"
+                    size="medium"
+                    textAlign="center"
+          />
+          <Button
+                    as="button"
+                    content="TryAgain"
+                    icon="left arrow"
+                    labelPosition="left"
+                    negative={true}
+                    onClick={[Function]}
+          />
+          <Button
+                    as="button"
+                    content="Yes"
+                    icon="check"
+                    labelPosition="right"
+                    onClick={[Function]}
+                    positive={true}
+          />
+</Segment>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "content": "Confirm the Address is correct.",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Segment>
+              <Header
+                            content="What you entered"
+                            size="small"
+              />
+              <AddressViewer
+                            address={undefined}
+              />
+</Segment>,
+            <Segment>
+              <Header
+                            content="What we found"
+                            size="small"
+              />
+              <AddressViewer
+                            address={undefined}
+              />
+</Segment>,
+          ],
+          "horizontal": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Header
+                  content="What you entered"
+                  size="small"
+/>,
+                <AddressViewer
+                  address={undefined}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "content": "What you entered",
+                  "size": "small",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "address": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Header
+                  content="What we found"
+                  size="small"
+/>,
+                <AddressViewer
+                  address={undefined}
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "content": "What we found",
+                  "size": "small",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "address": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "basic": true,
+          "children": Array [
+            <Header
+              content="Is this correct?"
+              size="medium"
+              textAlign="center"
+/>,
+            <Button
+              as="button"
+              content="TryAgain"
+              icon="left arrow"
+              labelPosition="left"
+              negative={true}
+              onClick={[Function]}
+/>,
+            <Button
+              as="button"
+              content="Yes"
+              icon="check"
+              labelPosition="right"
+              onClick={[Function]}
+              positive={true}
+/>,
+          ],
+          "textAlign": "right",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "content": "Is this correct?",
+              "size": "medium",
+              "textAlign": "center",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "button",
+              "content": "TryAgain",
+              "icon": "left arrow",
+              "labelPosition": "left",
+              "negative": true,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "button",
+              "content": "Yes",
+              "icon": "check",
+              "labelPosition": "right",
+              "onClick": [Function],
+              "positive": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "basic": true,
+        "children": Array [
+          <Header
+            content="Confirm the Address is correct."
+/>,
+          <SegmentGroup
+            horizontal={true}
+>
+            <Segment>
+                        <Header
+                                    content="What you entered"
+                                    size="small"
+                        />
+                        <AddressViewer
+                                    address={undefined}
+                        />
+            </Segment>
+            <Segment>
+                        <Header
+                                    content="What we found"
+                                    size="small"
+                        />
+                        <AddressViewer
+                                    address={undefined}
+                        />
+            </Segment>
+</SegmentGroup>,
+          <Segment
+            basic={true}
+            textAlign="right"
+>
+            <Header
+                        content="Is this correct?"
+                        size="medium"
+                        textAlign="center"
+            />
+            <Button
+                        as="button"
+                        content="TryAgain"
+                        icon="left arrow"
+                        labelPosition="left"
+                        negative={true}
+                        onClick={[Function]}
+            />
+            <Button
+                        as="button"
+                        content="Yes"
+                        icon="check"
+                        labelPosition="right"
+                        onClick={[Function]}
+                        positive={true}
+            />
+</Segment>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "content": "Confirm the Address is correct.",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Segment>
+                <Header
+                                content="What you entered"
+                                size="small"
+                />
+                <AddressViewer
+                                address={undefined}
+                />
+</Segment>,
+              <Segment>
+                <Header
+                                content="What we found"
+                                size="small"
+                />
+                <AddressViewer
+                                address={undefined}
+                />
+</Segment>,
+            ],
+            "horizontal": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Header
+                    content="What you entered"
+                    size="small"
+/>,
+                  <AddressViewer
+                    address={undefined}
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "content": "What you entered",
+                    "size": "small",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "address": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Header
+                    content="What we found"
+                    size="small"
+/>,
+                  <AddressViewer
+                    address={undefined}
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "content": "What we found",
+                    "size": "small",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "address": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "basic": true,
+            "children": Array [
+              <Header
+                content="Is this correct?"
+                size="medium"
+                textAlign="center"
+/>,
+              <Button
+                as="button"
+                content="TryAgain"
+                icon="left arrow"
+                labelPosition="left"
+                negative={true}
+                onClick={[Function]}
+/>,
+              <Button
+                as="button"
+                content="Yes"
+                icon="check"
+                labelPosition="right"
+                onClick={[Function]}
+                positive={true}
+/>,
+            ],
+            "textAlign": "right",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "content": "Is this correct?",
+                "size": "medium",
+                "textAlign": "center",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "button",
+                "content": "TryAgain",
+                "icon": "left arrow",
+                "labelPosition": "left",
+                "negative": true,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "button",
+                "content": "Yes",
+                "icon": "check",
+                "labelPosition": "right",
+                "onClick": [Function],
+                "positive": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

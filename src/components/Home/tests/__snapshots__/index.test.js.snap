@@ -17,127 +17,32 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": Array [
-        <Header
-          content="Welcome"
-/>,
-        <Menu
-          tabular={true}
->
-          <MenuItem
-                    active={true}
-                    name="product"
-                    onClick={[Function]}
-          />
-          <MenuItem
-                    active={false}
-                    name="ship"
-                    onClick={[Function]}
-          />
-</Menu>,
-        <Product />,
-      ],
+      "children": <SegmentGroup>
+        <Segment>
+                <Header
+                        content="Welcome"
+                />
+        </Segment>
+        <Segment>
+                <Product />
+        </Segment>
+</SegmentGroup>,
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "content": "Welcome",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "children": Array [
-            <MenuItem
-              active={true}
-              name="product"
-              onClick={[Function]}
-/>,
-            <MenuItem
-              active={false}
-              name="ship"
-              onClick={[Function]}
-/>,
-          ],
-          "tabular": true,
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "active": true,
-              "name": "product",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "active": false,
-              "name": "ship",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <Header
-            content="Welcome"
-/>,
-          <Menu
-            tabular={true}
->
-            <MenuItem
-                        active={true}
-                        name="product"
-                        onClick={[Function]}
+          <Segment>
+            <Header
+                        content="Welcome"
             />
-            <MenuItem
-                        active={false}
-                        name="ship"
-                        onClick={[Function]}
-            />
-</Menu>,
-          <Product />,
+</Segment>,
+          <Segment>
+            <Product />
+</Segment>,
         ],
       },
       "ref": null,
@@ -147,72 +52,129 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "content": "Welcome",
+            "children": <Header
+              content="Welcome"
+/>,
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <MenuItem
-                active={true}
-                name="product"
-                onClick={[Function]}
-/>,
-              <MenuItem
-                active={false}
-                name="ship"
-                onClick={[Function]}
-/>,
-            ],
-            "tabular": true,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "content": "Welcome",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "active": true,
-                "name": "product",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "active": false,
-                "name": "ship",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
           "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "function",
-          "props": Object {},
+          "props": Object {
+            "children": <Product />,
+          },
           "ref": null,
-          "rendered": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": [Function],
         },
       ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <SegmentGroup>
+          <Segment>
+                    <Header
+                              content="Welcome"
+                    />
+          </Segment>
+          <Segment>
+                    <Product />
+          </Segment>
+</SegmentGroup>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Segment>
+              <Header
+                            content="Welcome"
+              />
+</Segment>,
+            <Segment>
+              <Product />
+</Segment>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Header
+                content="Welcome"
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "content": "Welcome",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Product />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
       "type": [Function],
     },
   ],

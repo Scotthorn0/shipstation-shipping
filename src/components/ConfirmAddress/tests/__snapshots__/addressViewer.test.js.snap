@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressViewer Component should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddressViewer
+    address={
+        Object {
+            "address_line1": "500 S BUENA VISTA ST",
+            "address_line2": "",
+            "address_line3": null,
+            "address_residential_indicator": "no",
+            "city_locality": "BURBANK",
+            "company_name": "THE WALT DISNEY COMPANY",
+            "country_code": "US",
+            "name": "MICKEY AND MINNIE MOUSE",
+            "phone": "714-781-4565",
+            "postal_code": "91521-0007",
+            "state_province": "CA",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <ListItem>
+          MICKEY AND MINNIE MOUSE
+</ListItem>,
+        <ListItem>
+          714-781-4565
+</ListItem>,
+        <ListItem>
+          THE WALT DISNEY COMPANY
+</ListItem>,
+        <ListItem>
+          500 S BUENA VISTA ST
+</ListItem>,
+        null,
+        null,
+        <ListItem>
+          BURBANK
+</ListItem>,
+        <ListItem>
+          CA
+</ListItem>,
+        <ListItem>
+          91521-0007
+</ListItem>,
+        <ListItem>
+          US
+</ListItem>,
+        null,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "name",
+        "nodeType": "class",
+        "props": Object {
+          "children": "MICKEY AND MINNIE MOUSE",
+        },
+        "ref": null,
+        "rendered": "MICKEY AND MINNIE MOUSE",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "phone",
+        "nodeType": "class",
+        "props": Object {
+          "children": "714-781-4565",
+        },
+        "ref": null,
+        "rendered": "714-781-4565",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "company_name",
+        "nodeType": "class",
+        "props": Object {
+          "children": "THE WALT DISNEY COMPANY",
+        },
+        "ref": null,
+        "rendered": "THE WALT DISNEY COMPANY",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "address_line1",
+        "nodeType": "class",
+        "props": Object {
+          "children": "500 S BUENA VISTA ST",
+        },
+        "ref": null,
+        "rendered": "500 S BUENA VISTA ST",
+        "type": [Function],
+      },
+      null,
+      null,
+      Object {
+        "instance": null,
+        "key": "city_locality",
+        "nodeType": "class",
+        "props": Object {
+          "children": "BURBANK",
+        },
+        "ref": null,
+        "rendered": "BURBANK",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "state_province",
+        "nodeType": "class",
+        "props": Object {
+          "children": "CA",
+        },
+        "ref": null,
+        "rendered": "CA",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "postal_code",
+        "nodeType": "class",
+        "props": Object {
+          "children": "91521-0007",
+        },
+        "ref": null,
+        "rendered": "91521-0007",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "country_code",
+        "nodeType": "class",
+        "props": Object {
+          "children": "US",
+        },
+        "ref": null,
+        "rendered": "US",
+        "type": [Function],
+      },
+      null,
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <ListItem>
+            MICKEY AND MINNIE MOUSE
+</ListItem>,
+          <ListItem>
+            714-781-4565
+</ListItem>,
+          <ListItem>
+            THE WALT DISNEY COMPANY
+</ListItem>,
+          <ListItem>
+            500 S BUENA VISTA ST
+</ListItem>,
+          null,
+          null,
+          <ListItem>
+            BURBANK
+</ListItem>,
+          <ListItem>
+            CA
+</ListItem>,
+          <ListItem>
+            91521-0007
+</ListItem>,
+          <ListItem>
+            US
+</ListItem>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "name",
+          "nodeType": "class",
+          "props": Object {
+            "children": "MICKEY AND MINNIE MOUSE",
+          },
+          "ref": null,
+          "rendered": "MICKEY AND MINNIE MOUSE",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "phone",
+          "nodeType": "class",
+          "props": Object {
+            "children": "714-781-4565",
+          },
+          "ref": null,
+          "rendered": "714-781-4565",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "company_name",
+          "nodeType": "class",
+          "props": Object {
+            "children": "THE WALT DISNEY COMPANY",
+          },
+          "ref": null,
+          "rendered": "THE WALT DISNEY COMPANY",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "address_line1",
+          "nodeType": "class",
+          "props": Object {
+            "children": "500 S BUENA VISTA ST",
+          },
+          "ref": null,
+          "rendered": "500 S BUENA VISTA ST",
+          "type": [Function],
+        },
+        null,
+        null,
+        Object {
+          "instance": null,
+          "key": "city_locality",
+          "nodeType": "class",
+          "props": Object {
+            "children": "BURBANK",
+          },
+          "ref": null,
+          "rendered": "BURBANK",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "state_province",
+          "nodeType": "class",
+          "props": Object {
+            "children": "CA",
+          },
+          "ref": null,
+          "rendered": "CA",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "postal_code",
+          "nodeType": "class",
+          "props": Object {
+            "children": "91521-0007",
+          },
+          "ref": null,
+          "rendered": "91521-0007",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "country_code",
+          "nodeType": "class",
+          "props": Object {
+            "children": "US",
+          },
+          "ref": null,
+          "rendered": "US",
+          "type": [Function],
+        },
+        null,
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

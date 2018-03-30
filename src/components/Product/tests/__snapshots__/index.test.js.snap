@@ -17,9 +17,53 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <Header
-        content="Product"
-/>,
+      "children": <Grid>
+        <GridRow>
+                <GridColumn
+                        width={16}
+                >
+                        <Header
+                                content="Order your amazing Succulent"
+                        />
+                </GridColumn>
+        </GridRow>
+        <GridRow>
+                <GridColumn
+                        width={4}
+                >
+                        <Image
+                                as="img"
+                                size="large"
+                                src="bears-paw.jpg"
+                                ui={true}
+                        />
+                </GridColumn>
+                <GridColumn
+                        width={8}
+                >
+                        <Header
+                                content="Bear's Paw"
+                        />
+                        <Header
+                                content="Cotyledon ladismithensis"
+                                sub={true}
+                        />
+                        <Segment
+                                basic={true}
+                        >
+                                
+                                  Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                                  Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                                  Part sun to part shade. Nice house plant.
+                        </Segment>
+                </GridColumn>
+                <GridColumn
+                        width={4}
+                >
+                        <Ship />
+                </GridColumn>
+        </GridRow>
+</Grid>,
     },
     "ref": null,
     "rendered": Object {
@@ -27,10 +71,264 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "content": "Product",
+        "children": Array [
+          <GridRow>
+            <GridColumn
+                        width={16}
+            >
+                        <Header
+                                    content="Order your amazing Succulent"
+                        />
+            </GridColumn>
+</GridRow>,
+          <GridRow>
+            <GridColumn
+                        width={4}
+            >
+                        <Image
+                                    as="img"
+                                    size="large"
+                                    src="bears-paw.jpg"
+                                    ui={true}
+                        />
+            </GridColumn>
+            <GridColumn
+                        width={8}
+            >
+                        <Header
+                                    content="Bear's Paw"
+                        />
+                        <Header
+                                    content="Cotyledon ladismithensis"
+                                    sub={true}
+                        />
+                        <Segment
+                                    basic={true}
+                        >
+                                    
+                                      Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                                      Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                                      Part sun to part shade. Nice house plant.
+                        </Segment>
+            </GridColumn>
+            <GridColumn
+                        width={4}
+            >
+                        <Ship />
+            </GridColumn>
+</GridRow>,
+        ],
       },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <GridColumn
+              width={16}
+>
+              <Header
+                            content="Order your amazing Succulent"
+              />
+</GridColumn>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Header
+                content="Order your amazing Succulent"
+/>,
+              "width": 16,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "content": "Order your amazing Succulent",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <GridColumn
+                width={4}
+>
+                <Image
+                                as="img"
+                                size="large"
+                                src="bears-paw.jpg"
+                                ui={true}
+                />
+</GridColumn>,
+              <GridColumn
+                width={8}
+>
+                <Header
+                                content="Bear's Paw"
+                />
+                <Header
+                                content="Cotyledon ladismithensis"
+                                sub={true}
+                />
+                <Segment
+                                basic={true}
+                >
+                                
+                                  Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                                  Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                                  Part sun to part shade. Nice house plant.
+                </Segment>
+</GridColumn>,
+              <GridColumn
+                width={4}
+>
+                <Ship />
+</GridColumn>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Image
+                  as="img"
+                  size="large"
+                  src="bears-paw.jpg"
+                  ui={true}
+/>,
+                "width": 4,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "img",
+                  "size": "large",
+                  "src": "bears-paw.jpg",
+                  "ui": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Header
+                    content="Bear's Paw"
+/>,
+                  <Header
+                    content="Cotyledon ladismithensis"
+                    sub={true}
+/>,
+                  <Segment
+                    basic={true}
+>
+                    
+                      Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                      Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                      Part sun to part shade. Nice house plant.
+</Segment>,
+                ],
+                "width": 8,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "content": "Bear's Paw",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "content": "Cotyledon ladismithensis",
+                    "sub": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "basic": true,
+                    "children": "
+  Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+  Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+  Part sun to part shade. Nice house plant.",
+                  },
+                  "ref": null,
+                  "rendered": "
+  Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+  Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+  Part sun to part shade. Nice house plant.",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Ship />,
+                "width": 4,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
       "type": [Function],
     },
     "type": [Function],
@@ -41,9 +339,53 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <Header
-          content="Product"
-/>,
+        "children": <Grid>
+          <GridRow>
+                    <GridColumn
+                              width={16}
+                    >
+                              <Header
+                                        content="Order your amazing Succulent"
+                              />
+                    </GridColumn>
+          </GridRow>
+          <GridRow>
+                    <GridColumn
+                              width={4}
+                    >
+                              <Image
+                                        as="img"
+                                        size="large"
+                                        src="bears-paw.jpg"
+                                        ui={true}
+                              />
+                    </GridColumn>
+                    <GridColumn
+                              width={8}
+                    >
+                              <Header
+                                        content="Bear's Paw"
+                              />
+                              <Header
+                                        content="Cotyledon ladismithensis"
+                                        sub={true}
+                              />
+                              <Segment
+                                        basic={true}
+                              >
+                                        
+                                          Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                                          Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                                          Part sun to part shade. Nice house plant.
+                              </Segment>
+                    </GridColumn>
+                    <GridColumn
+                              width={4}
+                    >
+                              <Ship />
+                    </GridColumn>
+          </GridRow>
+</Grid>,
       },
       "ref": null,
       "rendered": Object {
@@ -51,10 +393,264 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "content": "Product",
+          "children": Array [
+            <GridRow>
+              <GridColumn
+                            width={16}
+              >
+                            <Header
+                                          content="Order your amazing Succulent"
+                            />
+              </GridColumn>
+</GridRow>,
+            <GridRow>
+              <GridColumn
+                            width={4}
+              >
+                            <Image
+                                          as="img"
+                                          size="large"
+                                          src="bears-paw.jpg"
+                                          ui={true}
+                            />
+              </GridColumn>
+              <GridColumn
+                            width={8}
+              >
+                            <Header
+                                          content="Bear's Paw"
+                            />
+                            <Header
+                                          content="Cotyledon ladismithensis"
+                                          sub={true}
+                            />
+                            <Segment
+                                          basic={true}
+                            >
+                                          
+                                            Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                                            Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                                            Part sun to part shade. Nice house plant.
+                            </Segment>
+              </GridColumn>
+              <GridColumn
+                            width={4}
+              >
+                            <Ship />
+              </GridColumn>
+</GridRow>,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <GridColumn
+                width={16}
+>
+                <Header
+                                content="Order your amazing Succulent"
+                />
+</GridColumn>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Header
+                  content="Order your amazing Succulent"
+/>,
+                "width": 16,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "content": "Order your amazing Succulent",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <GridColumn
+                  width={4}
+>
+                  <Image
+                                    as="img"
+                                    size="large"
+                                    src="bears-paw.jpg"
+                                    ui={true}
+                  />
+</GridColumn>,
+                <GridColumn
+                  width={8}
+>
+                  <Header
+                                    content="Bear's Paw"
+                  />
+                  <Header
+                                    content="Cotyledon ladismithensis"
+                                    sub={true}
+                  />
+                  <Segment
+                                    basic={true}
+                  >
+                                    
+                                      Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                                      Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                                      Part sun to part shade. Nice house plant.
+                  </Segment>
+</GridColumn>,
+                <GridColumn
+                  width={4}
+>
+                  <Ship />
+</GridColumn>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Image
+                    as="img"
+                    size="large"
+                    src="bears-paw.jpg"
+                    ui={true}
+/>,
+                  "width": 4,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "img",
+                    "size": "large",
+                    "src": "bears-paw.jpg",
+                    "ui": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Header
+                      content="Bear's Paw"
+/>,
+                    <Header
+                      content="Cotyledon ladismithensis"
+                      sub={true}
+/>,
+                    <Segment
+                      basic={true}
+>
+                      
+                        Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+                        Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+                        Part sun to part shade. Nice house plant.
+</Segment>,
+                  ],
+                  "width": 8,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "content": "Bear's Paw",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "content": "Cotyledon ladismithensis",
+                      "sub": true,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "basic": true,
+                      "children": "
+  Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+  Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+  Part sun to part shade. Nice house plant.",
+                    },
+                    "ref": null,
+                    "rendered": "
+  Cotyledon ladismithensis - Bear's Paw: Small shrublet.
+  Thick fuzzy leaves with toothed edge highlighted in dark red gives the appearance of a bear's paw.
+  Part sun to part shade. Nice house plant.",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Ship />,
+                  "width": 4,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
         "type": [Function],
       },
       "type": [Function],
