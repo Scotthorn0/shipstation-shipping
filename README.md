@@ -8,7 +8,7 @@ You can find the most recent guide  [here](https://github.com/facebookincubator/
 After creation, your project should look like this:
 
 ```
-my-app/
+shipping/
   README.md
   node_modules/
   package.json
@@ -31,6 +31,7 @@ my-app/
       ...
     index.css
     index.js
+  server.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
@@ -61,10 +62,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+### `npm run start:server`
+
+Starts up the proxy server on http://localhost:4040.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](#running-tests) for more information.
+
+### `npm test -- --coverage`
+
+Runs the test suite once to view test coverage.
 
 ### `npm run build`
 
